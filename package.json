@@ -1,0 +1,24 @@
+{
+  "name": "whatsapp-verfiy-num",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "start:dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@adiwajshing/baileys": "^4.2.0",
+    "@hapi/boom": "^10.0.0",
+    "@types/node": "^18.0.0",
+    "chalk": "^5.0.1",
+    "nodemon": "^2.0.18",
+    "qrcode-terminal": "^0.12.0",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.4"
+  }
+}
