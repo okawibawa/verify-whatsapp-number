@@ -1,2 +1,6 @@
 /node_modules
 /auth_info_baileys
+results/results.txt
+/validNumbers.txt
+valid-numbers-to-check/*.txt
+numbers.txt
