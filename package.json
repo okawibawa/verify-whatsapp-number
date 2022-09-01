@@ -4,6 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
+    "create-dir": "./create-dir.sh",
+    "count": "./check.sh",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js",
     "start:dev": "nodemon app.js"
