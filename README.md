@@ -24,8 +24,13 @@ This is a tool which you can use to validate WhatsApp numbers in bulk.
 
 7. Result will be stored in the root folder in a file titled `validNumbers.txt`.
 
-8. Copy the validNumbers.txt to the folder of ./valid-numbers-to-check with the name of whatever you want for example using this command `cp validNumbers.txt ./valid-numbers-to-check/1st-place.txt`
+## What if you have multiple files to check ?
 
-9. Run the shell script of `check.sh` with `./check.sh`
+1. Run `npm run create-dir`, this will create the folder of valid-numbers-to-check. 
 
-10. See the results of the phone number registered and unregistered count
+2. Copy the validNumbers.txt to the folder of ./valid-numbers-to-check with the name of whatever you want for example using this command `cp validNumbers.txt ./valid-numbers-to-check/1st-place.txt`
+
+3. After putting the multiple files in the directory of `valid-numbers-to-check` you can run `npm run count` 
+
+3. See the results of the phone number registered and unregistered count in the folder of results/
+
